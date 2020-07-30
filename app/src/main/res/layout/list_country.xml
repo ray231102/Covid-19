@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lay_globe_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp8"
+        android:layout_margin="@dimen/dp8"
+        android:background="@drawable/bg_header_gray"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_flag_country"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="@dimen/dp4"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:id="@+id/tv_country_name"
+            style="@style/TextContentListCountry"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:text="@string/countries"/>
+
+        <TextView
+            android:id="@+id/tv_country_total_case"
+            style="@style/TextContentListCountry"
+            android:layout_weight="5"
+            android:text="@string/total_cases"/>
+
+        <TextView
+            android:id="@+id/tv_country_total_recovered"
+            style="@style/TextContentListCountry"
+            android:layout_weight="5"
+            android:text="@string/recovered"/>
+
+        <TextView
+            android:id="@+id/tv_country_total_deaths"
+            style="@style/TextContentListCountry"
+            android:layout_weight="5"
+            android:text="@string/deaths"/>
+
+    </LinearLayout>
+
+</LinearLayout>
