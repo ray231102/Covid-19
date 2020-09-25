@@ -24,6 +24,8 @@ import java.text.NumberFormat
 import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
+    
+    //paras
 
     private lateinit var countryAdapter: CountryAdapter
     private var ascending = true
