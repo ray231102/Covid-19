@@ -2,6 +2,8 @@ package com.idn.covid_19.adapter
 
 data class AllCountries (val Global: World, val Countries: List<Countries>)
 
+//paras ganteng
+
 data class World (
     val TotalConfirmed: String = "",
     val TotalDeaths: String = "",
