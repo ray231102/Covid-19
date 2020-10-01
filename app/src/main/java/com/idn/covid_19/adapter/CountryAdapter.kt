@@ -15,6 +15,8 @@ import java.text.NumberFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
+//paras ganteng
+
 class CountryAdapter(val country: ArrayList<Countries>, val clicklistener: (Countries) -> Unit):
     RecyclerView.Adapter<CountryAdapter.CountryViewHolder>(), Filterable {
 
