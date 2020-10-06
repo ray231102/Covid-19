@@ -58,6 +58,7 @@ class CountryAdapter(val country: ArrayList<Countries>, val clicklistener: (Coun
             override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
                 countryFilterList = results?.values as ArrayList<Countries>
                 notifyDataSetChanged()
+                //halo testihg
             }
         }
     }
